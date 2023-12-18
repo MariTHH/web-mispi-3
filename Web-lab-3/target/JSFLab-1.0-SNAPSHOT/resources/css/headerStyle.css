@@ -1,0 +1,37 @@
+header {
+  background-color: #2d1e2f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  color: white;
+  z-index: 1000;
+}
+
+.content, .header_content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header_content div {
+  padding: 5px 5px;
+  display: inline-block;
+  font-size: 23px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*# sourceMappingURL=headerStyle.css.map */
