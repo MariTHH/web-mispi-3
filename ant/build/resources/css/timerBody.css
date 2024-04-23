@@ -1,0 +1,36 @@
+body {
+  background-color: #1f1f1f;
+  font-family: Verdana, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.clock {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  margin: 1em;
+}
+
+a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  border-radius: 5px;
+  background-color: white;
+  padding: 8px 20px;
+}
+
+a:hover {
+  background-color: #e2e2e2;
+}
+
+a:active {
+  background-color: #cecece;
+}
+
+/*# sourceMappingURL=timerBody.css.map */

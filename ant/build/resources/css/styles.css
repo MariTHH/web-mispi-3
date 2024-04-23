@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: whitesmoke;
+}
+
+.main-container {
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  line-height: 1.5;
+  padding: 5%;
+  min-height: 560px;
+}
+.container svg {
+  box-sizing: content-box;
+  padding: 10px;
+  border: 5px #6589FF solid;
+  border-radius: 10px;
+}
+.container-text {
+  padding: 25px 40px 25px 0px;
+}
+.container-text .input,
+.container-text [type="submit"] {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+.container-text .input {
+  border: 1px solid #DADDEC;
+  margin: 5px 0 10px;
+  font-size: 1rem;
+  color: #656880;
+}
+.container-text .input:hover {
+  transition: border-color 0.2s ease-in;
+  border-color: #2196F3;
+}
+.container-text .input:focus {
+  outline: 0 none;
+  box-shadow: 0 0 0 0.2em #a6d5fa;
+  transition: box-shadow 0.2s ease-in;
+}
+.container-text input[type="submit"] {
+  background-image: linear-gradient(to right, #89CAFF, #6589FF);
+  display: block;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 5px 20px #89caff94;
+  margin: 10px 0;
+  transition: box-shadow .3s ease-in-out;
+}
+.container-text input[type="submit"]:hover {
+  box-shadow: none;
+}
+.container-text span.x-input {
+  display: block;
+  text-align: center;
+  margin: 5px 0 0;
+  color: #BABDCB;
+  font-size: 12px;
+}
+
+#results-table-area {
+  overflow: auto;
+  width: 90%;
+  margin: auto;
+}
+
+.results {
+  width: 100%;
+  padding: 20px 0;
+  color: white;
+}
+.results th {
+  background-color: #70c1b3;
+  letter-spacing: 1px;
+  text-shadow: grey 1px 2px;
+  padding: 10px 15px;
+}
+.results th:first-child {
+  border-top-left-radius: 15px;
+}
+.results th:last-child {
+  border-top-right-radius: 15px;
+}
+.results td {
+  padding: 10px 15px;
+  background-color: #ffe066;
+  color: #2d1e2f;
+}
+.results tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+.results tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.error_message {
+  color: red;
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */
