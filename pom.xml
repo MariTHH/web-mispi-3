@@ -93,10 +93,10 @@
                 <version>3.7.2</version>
                 <configuration>
                     <sassSourceDirectory>
-                        ${project.basedir}/src/main/webapp/resources/scss
+                        src/main/webapp/resources/scss
                     </sassSourceDirectory>
                     <destination>
-                        ${project.basedir}/src/main/webapp/resources/css
+                        src/main/webapp/resources/css
                     </destination>
                 </configuration>
             </plugin>
