@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Web-lab-3/JSFLab.iml" filepath="$PROJECT_DIR$/Web-lab-3/JSFLab.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Web-lab-3/.idea/web3.iml" filepath="$PROJECT_DIR$/Web-lab-3/.idea/web3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-player/Web-lab-3/.idea/web3.iml" filepath="$PROJECT_DIR$/music-player/Web-lab-3/.idea/web3.iml" />
     </modules>
   </component>
 </project>

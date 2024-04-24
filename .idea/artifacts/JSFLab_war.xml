@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JSFLab:war">
+    <output-path>$PROJECT_DIR$/Web-lab-3/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JSFLab</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JSFLab-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JSFLab:war exploded" />
+    </root>
+  </artifact>
+</component>
